@@ -1,0 +1,7 @@
+2025-11-12 00:18:23,775 - INFO - === Initializing Nifty Indicator Application ===
+2025-11-12 00:18:23,776 - INFO - Application initialized successfully
+2025-11-12 00:18:23,776 - INFO - === Application Started ===
+2025-11-12 00:18:23,776 - INFO - === Starting Live Market Monitoring ===
+2025-11-12 00:18:23,777 - INFO - Outside market hours. Waiting...
+2025-11-12 00:24:52,842 - INFO - Application stopped by user
+2025-11-12 00:24:52,842 - INFO - === Application Shutdown ===
