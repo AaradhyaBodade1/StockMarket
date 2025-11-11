@@ -686,11 +686,3 @@ if __name__ == "__main__":
     
     app = NiftyIndicatorApp()
     app.run()
-
-
-# Save the main code
-with open('/tmp/nifty_indicator.py', 'w') as f:
-    f.write(main_code)
-
-print("✓ Main application code created: nifty_indicator.py")
-print(f"Total lines: {len(main_code.splitlines())}")

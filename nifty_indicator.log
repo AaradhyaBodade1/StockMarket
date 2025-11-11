@@ -5,3 +5,16 @@
 2025-11-12 00:18:23,777 - INFO - Outside market hours. Waiting...
 2025-11-12 00:24:52,842 - INFO - Application stopped by user
 2025-11-12 00:24:52,842 - INFO - === Application Shutdown ===
+2025-11-12 00:32:10,584 - INFO - === Initializing Nifty Indicator Application ===
+2025-11-12 00:32:10,584 - INFO - Application initialized successfully
+2025-11-12 00:32:10,585 - INFO - === Application Started ===
+2025-11-12 00:32:10,585 - INFO - === Starting Live Market Monitoring ===
+2025-11-12 00:32:10,585 - INFO - Outside market hours. Waiting...
+2025-11-12 00:32:13,860 - INFO - Application stopped by user
+2025-11-12 00:32:13,861 - INFO - === Application Shutdown ===
+2025-11-12 00:45:39,145 - INFO - === Initializing Nifty Indicator Application ===
+2025-11-12 00:45:39,145 - INFO - Application initialized successfully
+2025-11-12 00:45:39,145 - INFO - === Application Started ===
+2025-11-12 00:45:39,145 - INFO - === Starting Live Market Monitoring ===
+2025-11-12 00:45:39,145 - INFO - Outside market hours. Waiting...
+2025-11-12 00:56:03,418 - INFO - Outside market hours. Waiting...
