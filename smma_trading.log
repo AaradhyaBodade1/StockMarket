@@ -1,0 +1,177 @@
+2025-11-12 23:31:58,634 - INFO - ============================================================
+2025-11-12 23:31:58,635 - INFO - SMMA Trading System with MACD Indicator Started
+2025-11-12 23:31:58,635 - INFO - ============================================================
+2025-11-12 23:31:58,636 - INFO - Monitoring: Nifty50, Sensex, Reliance, IndusInd Bank, NTPC, Sun Pharma, Tata Motors, Wipro, ONGC
+2025-11-12 23:31:58,636 - INFO - Check interval: 10 seconds
+2025-11-12 23:31:58,640 - INFO - Timeframe: 15-minute candles
+2025-11-12 23:31:58,640 - INFO - Indicators: SMMA9/20 + RSI + MACD + Volume
+2025-11-12 23:31:58,641 - INFO - ============================================================
+2025-11-12 23:31:58,641 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:32:07,192 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:32:07,373 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:32:07,547 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:32:07,740 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:32:07,950 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:32:08,145 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:32:08,259 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:32:08,260 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:32:08,440 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:32:08,639 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:32:08,639 - INFO - Next scan in 10 seconds...
+2025-11-12 23:32:18,640 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:32:18,820 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:32:19,110 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:32:19,292 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:32:19,495 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:32:19,719 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:32:19,920 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:32:20,145 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:32:20,146 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:32:20,341 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:32:20,536 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:32:20,536 - INFO - Next scan in 10 seconds...
+2025-11-12 23:32:30,537 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:32:30,794 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:32:31,009 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:32:31,243 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:32:31,544 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:32:31,812 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:32:32,061 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:32:32,183 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:32:32,185 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:32:32,470 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:32:32,705 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:32:32,706 - INFO - Next scan in 10 seconds...
+2025-11-12 23:32:42,710 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:32:42,929 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:32:43,121 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:32:43,314 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:32:43,501 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:32:43,693 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:32:43,895 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:32:44,007 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:32:44,008 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:32:44,193 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:32:44,399 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:32:44,399 - INFO - Next scan in 10 seconds...
+2025-11-12 23:32:54,400 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:32:54,574 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:32:54,760 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:32:55,813 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:32:55,993 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:32:56,198 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:32:56,390 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:32:56,503 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:32:56,504 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:32:56,692 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:32:56,888 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:32:56,889 - INFO - Next scan in 10 seconds...
+2025-11-12 23:33:06,889 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:33:07,075 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:33:07,285 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:33:07,495 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:33:07,666 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:33:07,847 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:33:08,045 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:33:08,151 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:33:08,152 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:33:08,339 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:33:08,532 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:33:08,532 - INFO - Next scan in 10 seconds...
+2025-11-12 23:33:18,533 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:33:18,734 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:33:19,410 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:33:19,610 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:33:19,820 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:33:20,026 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:33:20,215 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:33:20,327 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:33:20,329 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:33:20,520 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:33:20,710 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:33:20,711 - INFO - Next scan in 10 seconds...
+2025-11-12 23:33:30,711 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:33:30,921 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:33:31,121 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:33:31,303 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:33:31,500 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:33:31,698 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:33:35,446 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:33:35,551 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:33:35,552 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:33:35,739 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:33:35,946 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:33:35,946 - INFO - Next scan in 10 seconds...
+2025-11-12 23:33:45,947 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:33:46,245 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:33:46,502 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:33:46,730 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:33:46,916 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:33:47,198 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:33:47,440 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:33:47,558 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:33:47,561 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:33:47,831 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:33:48,095 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:33:48,099 - INFO - Next scan in 10 seconds...
+2025-11-12 23:33:58,107 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:33:58,330 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:33:58,530 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:33:58,745 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:33:58,970 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:33:59,222 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:33:59,499 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:33:59,645 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:33:59,647 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:33:59,876 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:34:00,108 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:34:00,108 - INFO - Next scan in 10 seconds...
+2025-11-12 23:34:10,111 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:34:10,344 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:34:10,530 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:34:11,111 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:34:11,344 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:34:11,555 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:34:11,773 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:34:11,885 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:34:11,886 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:34:12,085 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:34:12,300 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:34:12,301 - INFO - Next scan in 10 seconds...
+2025-11-12 23:34:22,301 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:34:22,486 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:34:22,679 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:34:22,870 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:34:23,105 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:34:23,319 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:34:23,546 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:34:23,657 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:34:23,658 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:34:23,852 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:34:24,097 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:34:24,098 - INFO - Next scan in 10 seconds...
+2025-11-12 23:34:34,098 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:34:34,281 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:34:34,468 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:34:34,661 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:34:34,849 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:34:35,055 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:34:35,259 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:34:35,382 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:34:35,383 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:34:35,583 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:34:35,778 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:34:35,779 - INFO - Next scan in 10 seconds...
+2025-11-12 23:34:45,779 - INFO - --- Scanning for trade signals ---
+2025-11-12 23:34:46,013 - INFO - Nifty50 | Price: 25874.00 | SMMA9: 25878.41 | SMMA20: 25806.68 | RSI: 42.0 | MACD: 📉 -14.6199 | Vol: NORMAL
+2025-11-12 23:34:46,236 - INFO - Sensex | Price: 84466.64 | SMMA9: 84480.94 | SMMA20: 84248.93 | RSI: 41.8 | MACD: 📉 -46.9126 | Vol: NORMAL
+2025-11-12 23:34:46,438 - INFO - Reliance | Price: 1511.50 | SMMA9: 1515.38 | SMMA20: 1508.91 | RSI: 30.1 | MACD: 📉 -2.1036 | Vol: HIGH
+2025-11-12 23:34:46,641 - INFO - IndusInd Bank | Price: 861.50 | SMMA9: 858.23 | SMMA20: 845.88 | RSI: 64.0 | MACD: 📉 -0.8883 | Vol: HIGH
+2025-11-12 23:34:46,894 - INFO - NTPC | Price: 327.15 | SMMA9: 326.98 | SMMA20: 326.60 | RSI: 54.2 | MACD: 📉 -0.0457 | Vol: HIGH
+2025-11-12 23:34:47,234 - INFO - Sun Pharma | Price: 1733.00 | SMMA9: 1730.86 | SMMA20: 1723.78 | RSI: 48.1 | MACD: 📉 -1.2910 | Vol: HIGH
+2025-11-12 23:34:47,349 - ERROR - $TATAMOTORS.NS: possibly delisted; no price data found  (period=5d)
+2025-11-12 23:34:47,353 - WARNING - No data fetched for Tata Motors
+2025-11-12 23:34:47,613 - INFO - Wipro | Price: 245.39 | SMMA9: 245.12 | SMMA20: 243.89 | RSI: 47.6 | MACD: 📉 -0.2009 | Vol: HIGH
+2025-11-12 23:34:47,877 - INFO - ONGC | Price: 254.20 | SMMA9: 253.54 | SMMA20: 252.55 | RSI: 62.8 | MACD: 📉 -0.1424 | Vol: HIGH
+2025-11-12 23:34:47,877 - INFO - Next scan in 10 seconds...
+2025-11-12 23:34:53,362 - INFO - Trading system stopped by user

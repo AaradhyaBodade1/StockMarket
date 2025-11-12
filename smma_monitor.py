@@ -1,8 +1,5 @@
-
-"""
-SMMA Crossover Alert System for Nifty50 and Sensex
-Monitors 9-period and 20-period SMMA indicators and sends email alerts on crossovers.
-"""
+# SMMA Crossover Alert System for Nifty50, Sensex, and Individual Stocks
+# Monitors 9-period and 20-period SMMA indicators and sends email alerts on crossovers
 
 import yfinance as yf
 import pandas as pd
@@ -16,6 +13,7 @@ from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv
 import os
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Load environment variables
 load_dotenv()
@@ -115,6 +113,8 @@ class EmailAlerter:
         self.recipient_email = os.getenv('RECIPIENT_EMAIL')
         self.smtp_server = os.getenv('SMTP_SERVER', 'smtp.gmail.com')
         self.smtp_port = int(os.getenv('SMTP_PORT', 587))
+        self.alert_queue = []
+        self.batch_alerts = os.getenv('BATCH_ALERTS', 'false').lower() == 'true'
     
     def send_alert(self, subject, body):
         """Send email alert"""
@@ -140,16 +140,19 @@ class EmailAlerter:
 
 
 class IndexMonitor:
-    """Monitor individual index with SMMA indicators"""
+    """Monitor individual index/stock with SMMA indicators"""
     
-    def __init__(self, index_name, ticker_symbol, alerter):
+    def __init__(self, index_name, ticker_symbol, alerter, is_index=False):
         self.index_name = index_name
         self.ticker_symbol = ticker_symbol
         self.alerter = alerter
+        self.is_index = is_index
         self.smma_9 = SMMAIndicator(9)
         self.smma_20 = SMMAIndicator(20)
         self.crossover_detector = CrossoverDetector()
         self.last_alert_time = defaultdict(lambda: datetime.min)
+        self.last_data_fetch = None
+        self.fetch_errors = 0
     
     def fetch_latest_data(self, interval='1h'):
         """
@@ -157,18 +160,36 @@ class IndexMonitor:
         interval: '1m', '5m', '15m', '1h', '1d'
         """
         try:
-            # Fetch last 100 candles to ensure we have enough for SMMA calculation
             ticker = yf.Ticker(self.ticker_symbol)
-            data = ticker.history(period='30d', interval=interval)
+            
+            # Use appropriate period based on interval
+            if interval == '1m':
+                period = '7d'
+            elif interval == '5m':
+                period = '30d'
+            elif interval == '15m':
+                period = '60d'
+            elif interval == '1h':
+                period = '730d'
+            else:
+                period = '730d'
+            
+            data = ticker.history(period=period, interval=interval)
             
             if data.empty:
-                logger.warning(f"No data fetched for {self.index_name}")
+                self.fetch_errors += 1
+                if self.fetch_errors > 5:
+                    logger.warning(f"Persistent data fetch issues for {self.index_name}")
                 return None
             
+            self.fetch_errors = 0
+            self.last_data_fetch = datetime.now()
             return data
         
         except Exception as e:
-            logger.error(f"Error fetching data for {self.index_name}: {str(e)}")
+            self.fetch_errors += 1
+            if self.fetch_errors <= 3:  # Log only first 3 errors
+                logger.warning(f"Error fetching data for {self.index_name}: {str(e)}")
             return None
     
     def analyze_and_alert(self, interval='1h'):
@@ -186,7 +207,6 @@ class IndexMonitor:
         smma_20_values = self.smma_20.calculate(closes)
         
         if smma_9_values is None or smma_20_values is None:
-            logger.warning(f"Not enough data for SMMA calculation for {self.index_name}")
             return
         
         # Get latest values
@@ -222,7 +242,7 @@ class IndexMonitor:
                 self.last_alert_time[alert_key_20] = datetime.now()
         
         # Log current state
-        logger.info(
+        logger.debug(
             f"{self.index_name} | Price: {current_price:.2f} | "
             f"SMMA9: {current_smma_9:.2f} | SMMA20: {current_smma_20:.2f}"
         )
@@ -230,15 +250,20 @@ class IndexMonitor:
     def _send_crossover_alert(self, period, signal_type, price, smma_value):
         """Send crossover alert email"""
         signal_text = "BULLISH ↑" if signal_type == 'bullish' else "BEARISH ↓"
-        subject = f"🚀 {self.index_name} SMMA{period} {signal_text} Crossover Alert"
+        
+        if self.is_index:
+            subject = f"📈 {self.index_name} SMMA{period} {signal_text} Crossover Alert"
+        else:
+            subject = f"📊 {self.index_name} SMMA{period} {signal_text} Crossover Alert"
         
         body = f"""
 SMMA Crossover Alert - {self.index_name}
 
 Signal Type: {signal_type.upper()}
 SMMA Period: {period}
-Current Price: {price:.2f}
-SMMA Value: {smma_value:.2f}
+Current Price: ₹{price:.2f}
+SMMA Value: ₹{smma_value:.2f}
+Ticker: {self.ticker_symbol}
 
 Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
@@ -249,45 +274,96 @@ This is an automated alert from SMMA Crossover Monitor.
 
 
 class SMMAMonitoringSystem:
-    """Main monitoring system orchestrating all indices"""
+    """Main monitoring system orchestrating all indices and stocks"""
     
     def __init__(self):
         self.alerter = EmailAlerter()
-        self.monitors = {
-            'Nifty50': IndexMonitor('Nifty50', '^NSEI', self.alerter),
-            'Sensex': IndexMonitor('Sensex', '^BSESN', self.alerter),
-            'Reliance': IndexMonitor('Reliance', 'RELIANCE.NS', self.alerter),
-            'IndusInd Bank': IndexMonitor('IndusInd Bank', 'INDUSINDBK.NS', self.alerter),
-            'NTPC': IndexMonitor('NTPC', 'NTPC.NS', self.alerter),
-            'Sun Pharma': IndexMonitor('Sun Pharma', 'SUNPHARMA.NS', self.alerter),
-            'Tata Motors': IndexMonitor('Tata Motors', 'TATAMOTORS.NS', self.alerter),
-            'Wipro': IndexMonitor('Wipro', 'WIPRO.NS', self.alerter),
-            'ONGC': IndexMonitor('ONGC', 'ONGC.NS', self.alerter)
-
+        
+        # Define all monitored assets
+        self.indices = {
+            'Nifty50': ('^NSEI', True),
+            'Sensex': ('^BSESN', True)
         }
-        self.check_interval = int(os.getenv('CHECK_INTERVAL', 10))  # seconds
+        
+        self.stocks = {
+            'Reliance': ('RELIANCE.NS', False),
+            'HDFC Bank': ('HDFCBANK.NS', False),
+            'ICICI Bank': ('ICICIBANK.NS', False),
+            'Infosys': ('INFY.NS', False),
+            'TCS': ('TCS.NS', False),
+            'Bajaj Finance': ('BAJAJFINSV.NS', False),
+            'Kotak Mahindra': ('KOTAKBANK.NS', False),
+            'Axis Bank': ('AXISBANK.NS', False),
+            'SBI': ('SBIN.NS', False),
+            'L&T': ('LT.NS', False),
+            'Maruti Suzuki': ('MARUTI.NS', False),
+            'HUL': ('HINDUNILVR.NS', False),
+            'Asian Paints': ('ASIANPAINT.NS', False),
+            'Adani Enterprises': ('ADANIENTER.NS', False),
+            'Indusind Bank': ('INDUSINDBK.NS', False),
+            'NTPC': ('NTPC.NS', False),
+            'Sun Pharma': ('SUNPHARMA.NS', False),
+            'Tata Motors': ('TATAMOTORS.NS', False),
+            'Wipro': ('WIPRO.NS', False),
+            'ONGC': ('ONGC.NS', False)
+        }
+        
+        # Initialize monitors
+        self.monitors = {}
+        all_assets = {**self.indices, **self.stocks}
+        
+        for asset_name, (ticker, is_idx) in all_assets.items():
+            self.monitors[asset_name] = IndexMonitor(asset_name, ticker, self.alerter, is_idx)
+        
+        self.check_interval = int(os.getenv('CHECK_INTERVAL', 300))  # Default 5 minutes
+        self.max_workers = int(os.getenv('MAX_WORKERS', 5))
     
     def run(self):
-        """Main monitoring loop"""
-        logger.info("Starting SMMA Crossover Monitoring System...")
-        logger.info(f"Monitoring: {', '.join(self.monitors.keys())}")
+        """Main monitoring loop with parallel processing"""
+        logger.info("=" * 70)
+        logger.info("Starting SMMA Crossover Monitoring System (Enhanced)")
+        logger.info("=" * 70)
+        logger.info(f"Monitoring Indices: {', '.join(self.indices.keys())}")
+        logger.info(f"Monitoring Stocks: {', '.join(self.stocks.keys())}")
+        logger.info(f"Total Assets: {len(self.monitors)}")
         logger.info(f"Check interval: {self.check_interval} seconds")
+        logger.info(f"Max parallel workers: {self.max_workers}")
+        logger.info("=" * 70)
         
         try:
+            iteration = 0
             while True:
-                logger.info("--- Checking indicators ---")
+                iteration += 1
+                logger.info(f"\n--- Iteration #{iteration} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---")
                 
-                for index_name, monitor in self.monitors.items():
-                    try:
-                        monitor.analyze_and_alert(interval='1h')
-                    except Exception as e:
-                        logger.error(f"Error analyzing {index_name}: {str(e)}")
+                # Use ThreadPoolExecutor for parallel monitoring
+                with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+                    futures = {}
+                    
+                    for asset_name, monitor in self.monitors.items():
+                        future = executor.submit(monitor.analyze_and_alert, interval='1h')
+                        futures[future] = asset_name
+                    
+                    # Collect results
+                    completed = 0
+                    errors = 0
+                    for future in as_completed(futures):
+                        asset_name = futures[future]
+                        try:
+                            future.result()
+                            completed += 1
+                        except Exception as e:
+                            logger.error(f"Error analyzing {asset_name}: {str(e)}")
+                            errors += 1
                 
-                logger.info(f"Waiting {self.check_interval} seconds until next check...")
+                logger.info(f"Iteration complete - {completed} successful, {errors} errors")
+                logger.info(f"Next check in {self.check_interval} seconds...")
                 time.sleep(self.check_interval)
         
         except KeyboardInterrupt:
+            logger.info("\n" + "=" * 70)
             logger.info("Monitoring stopped by user")
+            logger.info("=" * 70)
         except Exception as e:
             logger.error(f"Unexpected error: {str(e)}")
             raise
