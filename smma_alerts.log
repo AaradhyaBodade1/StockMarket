@@ -1,0 +1,219 @@
+2025-11-12 11:18:36,467 - INFO - Starting SMMA Crossover Monitoring System...
+2025-11-12 11:18:36,467 - INFO - Monitoring: Nifty50, Sensex
+2025-11-12 11:18:36,468 - INFO - Check interval: 10 seconds
+2025-11-12 11:18:36,468 - INFO - --- Checking indicators ---
+2025-11-12 11:18:41,275 - INFO - Nifty50 | Price: 25879.35 | SMMA9: 25675.36 | SMMA20: 25651.36
+2025-11-12 11:18:43,681 - INFO - Sensex | Price: 84452.02 | SMMA9: 83729.04 | SMMA20: 83686.99
+2025-11-12 11:18:43,682 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:18:53,683 - INFO - --- Checking indicators ---
+2025-11-12 11:18:55,288 - INFO - Nifty50 | Price: 25880.75 | SMMA9: 25675.52 | SMMA20: 25651.43
+2025-11-12 11:18:56,633 - INFO - Sensex | Price: 84452.76 | SMMA9: 83729.12 | SMMA20: 83687.02
+2025-11-12 11:18:56,634 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:19:06,635 - INFO - --- Checking indicators ---
+2025-11-12 11:19:07,836 - INFO - Nifty50 | Price: 25881.05 | SMMA9: 25675.55 | SMMA20: 25651.45
+2025-11-12 11:19:08,106 - INFO - Sensex | Price: 84449.93 | SMMA9: 83728.81 | SMMA20: 83686.88
+2025-11-12 11:19:08,107 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:19:18,108 - INFO - --- Checking indicators ---
+2025-11-12 11:19:18,712 - INFO - Nifty50 | Price: 25881.35 | SMMA9: 25675.58 | SMMA20: 25651.46
+2025-11-12 11:19:19,054 - INFO - Sensex | Price: 84447.92 | SMMA9: 83728.58 | SMMA20: 83686.78
+2025-11-12 11:19:19,054 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:19:29,055 - INFO - --- Checking indicators ---
+2025-11-12 11:19:29,687 - INFO - Nifty50 | Price: 25881.05 | SMMA9: 25675.55 | SMMA20: 25651.45
+2025-11-12 11:19:32,813 - INFO - Sensex | Price: 84446.50 | SMMA9: 83728.43 | SMMA20: 83686.71
+2025-11-12 11:19:32,813 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:19:42,814 - INFO - --- Checking indicators ---
+2025-11-12 11:19:43,701 - INFO - Nifty50 | Price: 25882.60 | SMMA9: 25675.72 | SMMA20: 25651.53
+2025-11-12 11:19:44,116 - INFO - Sensex | Price: 84449.43 | SMMA9: 83728.75 | SMMA20: 83686.86
+2025-11-12 11:19:44,117 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:19:54,118 - INFO - --- Checking indicators ---
+2025-11-12 11:19:58,522 - INFO - Nifty50 | Price: 25880.65 | SMMA9: 25675.50 | SMMA20: 25651.43
+2025-11-12 11:20:01,455 - INFO - Sensex | Price: 84443.06 | SMMA9: 83728.05 | SMMA20: 83686.54
+2025-11-12 11:20:01,456 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:20:11,457 - INFO - --- Checking indicators ---
+2025-11-12 11:20:19,005 - INFO - Nifty50 | Price: 25881.10 | SMMA9: 25675.55 | SMMA20: 25651.45
+2025-11-12 11:20:20,372 - INFO - Sensex | Price: 84448.54 | SMMA9: 83728.65 | SMMA20: 83686.81
+2025-11-12 11:20:20,372 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:20:30,373 - INFO - --- Checking indicators ---
+2025-11-12 11:20:30,991 - INFO - Nifty50 | Price: 25880.75 | SMMA9: 25675.52 | SMMA20: 25651.43
+2025-11-12 11:20:33,766 - INFO - Sensex | Price: 84450.26 | SMMA9: 83728.84 | SMMA20: 83686.90
+2025-11-12 11:20:33,767 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:20:43,768 - INFO - --- Checking indicators ---
+2025-11-12 11:20:46,430 - INFO - Nifty50 | Price: 25878.90 | SMMA9: 25675.31 | SMMA20: 25651.34
+2025-11-12 11:20:56,442 - ERROR - $^BSESN: possibly delisted; no price data found  (period=30d)
+2025-11-12 11:20:56,444 - WARNING - No data fetched for Sensex
+2025-11-12 11:20:56,445 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:21:06,446 - INFO - --- Checking indicators ---
+2025-11-12 11:21:08,508 - INFO - Nifty50 | Price: 25880.00 | SMMA9: 25675.43 | SMMA20: 25651.40
+2025-11-12 11:21:11,751 - INFO - Sensex | Price: 84460.80 | SMMA9: 83730.02 | SMMA20: 83687.42
+2025-11-12 11:21:11,752 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:21:21,753 - INFO - --- Checking indicators ---
+2025-11-12 11:21:22,923 - INFO - Nifty50 | Price: 25880.90 | SMMA9: 25675.53 | SMMA20: 25651.44
+2025-11-12 11:21:24,311 - INFO - Sensex | Price: 84469.02 | SMMA9: 83730.93 | SMMA20: 83687.84
+2025-11-12 11:21:24,311 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:21:34,313 - INFO - --- Checking indicators ---
+2025-11-12 11:21:34,706 - INFO - Nifty50 | Price: 25881.55 | SMMA9: 25675.60 | SMMA20: 25651.47
+2025-11-12 11:21:35,611 - INFO - Sensex | Price: 84468.77 | SMMA9: 83730.90 | SMMA20: 83687.82
+2025-11-12 11:21:35,612 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:21:45,612 - INFO - --- Checking indicators ---
+2025-11-12 11:21:55,641 - ERROR - $^NSEI: possibly delisted; no price data found  (period=30d)
+2025-11-12 11:21:55,643 - WARNING - No data fetched for Nifty50
+2025-11-12 11:22:00,543 - INFO - Sensex | Price: 84479.85 | SMMA9: 83732.13 | SMMA20: 83688.38
+2025-11-12 11:22:00,544 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:22:10,544 - INFO - --- Checking indicators ---
+2025-11-12 11:22:20,560 - ERROR - $^NSEI: possibly delisted; no price data found  (period=30d)
+2025-11-12 11:22:20,562 - WARNING - No data fetched for Nifty50
+2025-11-12 11:22:30,575 - ERROR - $^BSESN: possibly delisted; no price data found  (period=30d)
+2025-11-12 11:22:30,577 - WARNING - No data fetched for Sensex
+2025-11-12 11:22:30,577 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:22:40,578 - INFO - --- Checking indicators ---
+2025-11-12 11:22:41,293 - INFO - Nifty50 | Price: 25883.55 | SMMA9: 25675.83 | SMMA20: 25651.57
+2025-11-12 11:22:41,771 - INFO - Sensex | Price: 84475.82 | SMMA9: 83731.68 | SMMA20: 83688.18
+2025-11-12 11:22:41,774 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:22:51,776 - INFO - --- Checking indicators ---
+2025-11-12 11:22:52,020 - INFO - Nifty50 | Price: 25882.50 | SMMA9: 25675.71 | SMMA20: 25651.52
+2025-11-12 11:22:52,403 - INFO - Sensex | Price: 84480.56 | SMMA9: 83732.21 | SMMA20: 83688.41
+2025-11-12 11:22:52,403 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:23:02,404 - INFO - --- Checking indicators ---
+2025-11-12 11:23:02,771 - INFO - Nifty50 | Price: 25881.80 | SMMA9: 25675.63 | SMMA20: 25651.49
+2025-11-12 11:23:03,837 - INFO - Sensex | Price: 84477.91 | SMMA9: 83731.92 | SMMA20: 83688.28
+2025-11-12 11:23:03,838 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:23:13,839 - INFO - --- Checking indicators ---
+2025-11-12 11:23:14,924 - INFO - Nifty50 | Price: 25883.15 | SMMA9: 25675.78 | SMMA20: 25651.55
+2025-11-12 11:23:15,374 - INFO - Sensex | Price: 84480.49 | SMMA9: 83732.20 | SMMA20: 83688.41
+2025-11-12 11:23:15,374 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:23:25,375 - INFO - --- Checking indicators ---
+2025-11-12 11:23:25,710 - INFO - Nifty50 | Price: 25882.70 | SMMA9: 25675.73 | SMMA20: 25651.53
+2025-11-12 11:23:26,100 - INFO - Sensex | Price: 84490.79 | SMMA9: 83733.35 | SMMA20: 83688.92
+2025-11-12 11:23:26,101 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:23:36,101 - INFO - --- Checking indicators ---
+2025-11-12 11:23:38,062 - INFO - Nifty50 | Price: 25883.35 | SMMA9: 25675.80 | SMMA20: 25651.56
+2025-11-12 11:23:39,053 - INFO - Sensex | Price: 84500.08 | SMMA9: 83734.38 | SMMA20: 83689.39
+2025-11-12 11:23:39,054 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:23:49,055 - INFO - --- Checking indicators ---
+2025-11-12 11:23:54,889 - INFO - Nifty50 | Price: 25885.60 | SMMA9: 25676.05 | SMMA20: 25651.68
+2025-11-12 11:23:55,650 - INFO - Sensex | Price: 84499.70 | SMMA9: 83734.34 | SMMA20: 83689.37
+2025-11-12 11:23:55,651 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:24:05,651 - INFO - --- Checking indicators ---
+2025-11-12 11:24:06,278 - INFO - Nifty50 | Price: 25886.70 | SMMA9: 25676.18 | SMMA20: 25651.73
+2025-11-12 11:24:06,529 - INFO - Sensex | Price: 84492.80 | SMMA9: 83733.57 | SMMA20: 83689.02
+2025-11-12 11:24:06,530 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:24:16,531 - INFO - --- Checking indicators ---
+2025-11-12 11:24:16,923 - INFO - Nifty50 | Price: 25887.00 | SMMA9: 25676.21 | SMMA20: 25651.75
+2025-11-12 11:24:17,385 - INFO - Sensex | Price: 84490.08 | SMMA9: 83733.27 | SMMA20: 83688.89
+2025-11-12 11:24:17,386 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:24:27,387 - INFO - --- Checking indicators ---
+2025-11-12 11:24:27,697 - INFO - Nifty50 | Price: 25887.45 | SMMA9: 25676.26 | SMMA20: 25651.77
+2025-11-12 11:24:28,436 - INFO - Sensex | Price: 84490.08 | SMMA9: 83733.27 | SMMA20: 83688.89
+2025-11-12 11:24:28,436 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:24:38,437 - INFO - --- Checking indicators ---
+2025-11-12 11:24:38,681 - INFO - Nifty50 | Price: 25888.60 | SMMA9: 25676.39 | SMMA20: 25651.83
+2025-11-12 11:24:39,773 - INFO - Sensex | Price: 84495.21 | SMMA9: 83733.84 | SMMA20: 83689.15
+2025-11-12 11:24:39,774 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:24:49,775 - INFO - --- Checking indicators ---
+2025-11-12 11:24:49,995 - INFO - Nifty50 | Price: 25887.85 | SMMA9: 25676.30 | SMMA20: 25651.79
+2025-11-12 11:24:50,301 - INFO - Sensex | Price: 84505.77 | SMMA9: 83735.01 | SMMA20: 83689.67
+2025-11-12 11:24:50,301 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:25:00,302 - INFO - --- Checking indicators ---
+2025-11-12 11:25:00,854 - INFO - Nifty50 | Price: 25886.40 | SMMA9: 25676.14 | SMMA20: 25651.72
+2025-11-12 11:25:01,602 - INFO - Sensex | Price: 84498.25 | SMMA9: 83734.18 | SMMA20: 83689.30
+2025-11-12 11:25:01,603 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:25:11,603 - INFO - --- Checking indicators ---
+2025-11-12 11:25:13,964 - INFO - Nifty50 | Price: 25887.90 | SMMA9: 25676.31 | SMMA20: 25651.79
+2025-11-12 11:25:18,344 - INFO - Sensex | Price: 84492.65 | SMMA9: 83733.55 | SMMA20: 83689.02
+2025-11-12 11:25:18,345 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:25:28,346 - INFO - --- Checking indicators ---
+2025-11-12 11:25:28,695 - INFO - Nifty50 | Price: 25887.05 | SMMA9: 25676.22 | SMMA20: 25651.75
+2025-11-12 11:25:28,902 - INFO - Sensex | Price: 84493.01 | SMMA9: 83733.59 | SMMA20: 83689.04
+2025-11-12 11:25:28,903 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:25:38,903 - INFO - --- Checking indicators ---
+2025-11-12 11:25:40,724 - INFO - Nifty50 | Price: 25886.95 | SMMA9: 25676.20 | SMMA20: 25651.74
+2025-11-12 11:25:42,035 - INFO - Sensex | Price: 84498.87 | SMMA9: 83734.25 | SMMA20: 83689.33
+2025-11-12 11:25:42,035 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:25:52,036 - INFO - --- Checking indicators ---
+2025-11-12 11:25:52,317 - INFO - Nifty50 | Price: 25888.20 | SMMA9: 25676.34 | SMMA20: 25651.81
+2025-11-12 11:25:52,671 - INFO - Sensex | Price: 84502.23 | SMMA9: 83734.62 | SMMA20: 83689.50
+2025-11-12 11:25:52,672 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:26:02,673 - INFO - --- Checking indicators ---
+2025-11-12 11:26:02,977 - INFO - Nifty50 | Price: 25888.85 | SMMA9: 25676.42 | SMMA20: 25651.84
+2025-11-12 11:26:05,303 - INFO - Sensex | Price: 84502.36 | SMMA9: 83734.63 | SMMA20: 83689.50
+2025-11-12 11:26:05,303 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:26:15,304 - INFO - --- Checking indicators ---
+2025-11-12 11:26:15,741 - INFO - Nifty50 | Price: 25886.75 | SMMA9: 25676.18 | SMMA20: 25651.73
+2025-11-12 11:26:15,998 - INFO - Sensex | Price: 84505.64 | SMMA9: 83735.00 | SMMA20: 83689.67
+2025-11-12 11:26:15,999 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:26:26,000 - INFO - --- Checking indicators ---
+2025-11-12 11:26:26,418 - INFO - Nifty50 | Price: 25884.60 | SMMA9: 25675.94 | SMMA20: 25651.63
+2025-11-12 11:26:26,755 - INFO - Sensex | Price: 84494.64 | SMMA9: 83733.78 | SMMA20: 83689.12
+2025-11-12 11:26:26,756 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:26:36,756 - INFO - --- Checking indicators ---
+2025-11-12 11:26:37,222 - INFO - Nifty50 | Price: 25884.60 | SMMA9: 25675.94 | SMMA20: 25651.63
+2025-11-12 11:26:37,534 - INFO - Sensex | Price: 84488.64 | SMMA9: 83733.11 | SMMA20: 83688.82
+2025-11-12 11:26:37,535 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:26:47,536 - INFO - --- Checking indicators ---
+2025-11-12 11:26:48,106 - INFO - Nifty50 | Price: 25886.25 | SMMA9: 25676.13 | SMMA20: 25651.71
+2025-11-12 11:26:49,444 - INFO - Sensex | Price: 84479.01 | SMMA9: 83732.04 | SMMA20: 83688.34
+2025-11-12 11:26:49,445 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:26:59,446 - INFO - --- Checking indicators ---
+2025-11-12 11:27:02,809 - INFO - Nifty50 | Price: 25885.50 | SMMA9: 25676.04 | SMMA20: 25651.67
+2025-11-12 11:27:03,637 - INFO - Sensex | Price: 84472.50 | SMMA9: 83731.32 | SMMA20: 83688.01
+2025-11-12 11:27:03,637 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:27:13,638 - INFO - --- Checking indicators ---
+2025-11-12 11:27:14,273 - INFO - Nifty50 | Price: 25885.90 | SMMA9: 25676.09 | SMMA20: 25651.69
+2025-11-12 11:27:15,101 - INFO - Sensex | Price: 84486.21 | SMMA9: 83732.84 | SMMA20: 83688.70
+2025-11-12 11:27:15,102 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:27:25,103 - INFO - --- Checking indicators ---
+2025-11-12 11:27:25,348 - INFO - Nifty50 | Price: 25886.80 | SMMA9: 25676.19 | SMMA20: 25651.74
+2025-11-12 11:27:25,712 - INFO - Sensex | Price: 84488.70 | SMMA9: 83733.12 | SMMA20: 83688.82
+2025-11-12 11:27:25,713 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:27:35,714 - INFO - --- Checking indicators ---
+2025-11-12 11:27:36,157 - INFO - Nifty50 | Price: 25886.80 | SMMA9: 25676.19 | SMMA20: 25651.74
+2025-11-12 11:27:36,486 - INFO - Sensex | Price: 84487.65 | SMMA9: 83733.00 | SMMA20: 83688.77
+2025-11-12 11:27:36,487 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:27:46,488 - INFO - --- Checking indicators ---
+2025-11-12 11:27:47,365 - INFO - Nifty50 | Price: 25885.75 | SMMA9: 25676.07 | SMMA20: 25651.68
+2025-11-12 11:27:47,753 - INFO - Sensex | Price: 84485.46 | SMMA9: 83732.76 | SMMA20: 83688.66
+2025-11-12 11:27:47,754 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:27:57,754 - INFO - --- Checking indicators ---
+2025-11-12 11:27:58,093 - INFO - Nifty50 | Price: 25884.75 | SMMA9: 25675.96 | SMMA20: 25651.63
+2025-11-12 11:27:59,074 - INFO - Sensex | Price: 84480.59 | SMMA9: 83732.22 | SMMA20: 83688.41
+2025-11-12 11:27:59,075 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:28:09,075 - INFO - --- Checking indicators ---
+2025-11-12 11:28:09,629 - INFO - Nifty50 | Price: 25885.90 | SMMA9: 25676.09 | SMMA20: 25651.69
+2025-11-12 11:28:18,031 - INFO - Sensex | Price: 84497.30 | SMMA9: 83734.07 | SMMA20: 83689.25
+2025-11-12 11:28:18,032 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:28:28,033 - INFO - --- Checking indicators ---
+2025-11-12 11:28:32,222 - INFO - Nifty50 | Price: 25888.05 | SMMA9: 25676.33 | SMMA20: 25651.80
+2025-11-12 11:28:32,937 - INFO - Sensex | Price: 84497.50 | SMMA9: 83734.09 | SMMA20: 83689.26
+2025-11-12 11:28:32,937 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:28:42,938 - INFO - --- Checking indicators ---
+2025-11-12 11:28:45,010 - INFO - Nifty50 | Price: 25889.00 | SMMA9: 25676.43 | SMMA20: 25651.85
+2025-11-12 11:28:45,478 - INFO - Sensex | Price: 84497.67 | SMMA9: 83734.11 | SMMA20: 83689.27
+2025-11-12 11:28:45,479 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:28:55,479 - INFO - --- Checking indicators ---
+2025-11-12 11:28:56,972 - INFO - Nifty50 | Price: 25887.95 | SMMA9: 25676.32 | SMMA20: 25651.79
+2025-11-12 11:28:57,352 - INFO - Sensex | Price: 84486.80 | SMMA9: 83732.90 | SMMA20: 83688.72
+2025-11-12 11:28:57,353 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:29:07,354 - INFO - --- Checking indicators ---
+2025-11-12 11:29:07,809 - INFO - Nifty50 | Price: 25888.85 | SMMA9: 25676.42 | SMMA20: 25651.84
+2025-11-12 11:29:07,962 - INFO - Sensex | Price: 84486.80 | SMMA9: 83732.90 | SMMA20: 83688.72
+2025-11-12 11:29:07,963 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:29:17,964 - INFO - --- Checking indicators ---
+2025-11-12 11:29:18,345 - INFO - Nifty50 | Price: 25890.10 | SMMA9: 25676.55 | SMMA20: 25651.90
+2025-11-12 11:29:18,586 - INFO - Sensex | Price: 84499.74 | SMMA9: 83734.34 | SMMA20: 83689.37
+2025-11-12 11:29:18,586 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:29:28,587 - INFO - --- Checking indicators ---
+2025-11-12 11:29:29,383 - INFO - Nifty50 | Price: 25890.15 | SMMA9: 25676.56 | SMMA20: 25651.90
+2025-11-12 11:29:30,054 - INFO - Sensex | Price: 84490.09 | SMMA9: 83733.27 | SMMA20: 83688.89
+2025-11-12 11:29:30,055 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:29:40,055 - INFO - --- Checking indicators ---
+2025-11-12 11:29:40,504 - INFO - Nifty50 | Price: 25888.15 | SMMA9: 25676.34 | SMMA20: 25651.80
+2025-11-12 11:29:41,399 - INFO - Sensex | Price: 84491.45 | SMMA9: 83733.42 | SMMA20: 83688.96
+2025-11-12 11:29:41,400 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:29:51,400 - INFO - --- Checking indicators ---
+2025-11-12 11:29:52,666 - INFO - Nifty50 | Price: 25886.65 | SMMA9: 25676.17 | SMMA20: 25651.73
+2025-11-12 11:29:52,943 - INFO - Sensex | Price: 84503.42 | SMMA9: 83734.75 | SMMA20: 83689.56
+2025-11-12 11:29:52,944 - INFO - Waiting 10 seconds until next check...
+2025-11-12 11:30:02,944 - INFO - --- Checking indicators ---
+2025-11-12 11:30:03,649 - INFO - Nifty50 | Price: 25888.10 | SMMA9: 25676.33 | SMMA20: 25651.80
+2025-11-12 11:30:04,006 - INFO - Sensex | Price: 84500.06 | SMMA9: 83820.52 | SMMA20: 83730.44
+2025-11-12 11:30:04,007 - INFO - Waiting 10 seconds until next check...
